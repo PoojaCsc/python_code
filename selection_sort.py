@@ -16,7 +16,7 @@ def main():
 
 def selection_sort(ilist):
     len_list = len(ilist)
-    for i in range(len_list):
+    for i in range(len_list):                   
         min = i
         for j in range(i+1,len_list):
             if ilist[j] < ilist[min]:
