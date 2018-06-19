@@ -14,16 +14,14 @@ def main():
     print(f"The sorted numbers are :{numbers}")
 
 
-def selection_sort(ilist):
-    len_list = len(ilist)
-    for i in range(len_list):                   
+def selection_sort(mylist):
+    len_list = len(mylist)
+    for i in range(len_list):
         min = i
         for j in range(i+1,len_list):
-            if ilist[j] < ilist[min]:
+            if mylist[j] < mylist[min]:
                 min = j
-        tempo = ilist[i]
-        ilist[i] = ilist[min]
-        ilist[min] = tempo
+        mylist[i],mylist[min] = mylist[min],mylist[i]
 
 
 
