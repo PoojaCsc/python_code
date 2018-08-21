@@ -1,5 +1,5 @@
 def search(ls, x):
-    print(x)
+   # print(x)
     for i in range(len(ls)):
        # print(ls[i])
         if ls[i] == x:
