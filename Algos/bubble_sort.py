@@ -8,12 +8,12 @@ def bubble_sort(ls):
             if ls[j] > ls[j+1]:
                 ls[j],ls[j+1]=ls[j+1],ls[j]
 
-    return ls
+
 
 def main():
     arr = [4,7,2,9,0,1]
-    sor_arr = bubble_sort(arr)
-    print(sor_arr)
+    bubble_sort(arr)
+    print("the array after sorting is :", arr)
 
 
 if __name__ == "__main__":
