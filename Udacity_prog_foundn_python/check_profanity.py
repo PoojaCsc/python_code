@@ -11,15 +11,16 @@ def check_profanity(text_to_check):
     flag = 0
     for word in text_to_check:
         connection = urllib.request.urlopen("http://www.wdylike.appspot.com/?q="+word)
+
         output = connection.read()
+
        # print(output)
         if b"true" in output:     # file is opened in bytes mode and output is in byte so compare byte to byte
-            flag= flag +1
-
-    if flag > 0:
-         print("profanity alert")
-    else:
-         print("the text has no curse words")
+            print("profanity alert")
+            flag = 1
+            break;
+    if flag == 0:
+       print("no profanity")
 
     connection.close()
 

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algos.iml" filepath="$PROJECT_DIR$/.idea/Algos.iml" />
       <module fileurl="file://$PROJECT_DIR$/../.idea/Code.iml" filepath="$PROJECT_DIR$/../.idea/Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Udacity_AlgoDS_Python/.idea/Udacity_AlgoDS_Python.iml" filepath="$PROJECT_DIR$/../../Udacity_AlgoDS_Python/.idea/Udacity_AlgoDS_Python.iml" />
     </modules>
   </component>
 </project>
